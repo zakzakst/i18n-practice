@@ -18,6 +18,7 @@
       }
     ],
     "paths": {
+      // TODO: https://mathenglog.net/Articles/Post/nextjs-alias
       "@/*": ["./src/*"]
     }
   },
