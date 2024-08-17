@@ -18,8 +18,10 @@
       }
     ],
     "paths": {
-      // TODO: https://mathenglog.net/Articles/Post/nextjs-alias
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@atoms/*": ["./src/components/atoms/*"],
+      "@molecules/*": ["./src/components/molecules/*"],
+      "@page/*": ["./src/components/page/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

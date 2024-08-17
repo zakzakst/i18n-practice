@@ -1,1 +1,2 @@
 - https://qiita.com/wolfee/items/4cf35bd900b86abbf15f
+- https://mathenglog.net/Articles/Post/nextjs-alias
