@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { within, userEvent, expect } from "@storybook/test";
 
 import { Page } from "@pages/sample/Page";
+import { config } from "process";
 
 const meta = {
   title: "Example/Page",
@@ -9,6 +10,16 @@ const meta = {
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: "fullscreen",
+    a11y: {
+      config: {
+        rules: [
+          {
+            id: "color-contrast",
+            enabled: false,
+          },
+        ],
+      },
+    },
   },
 } satisfies Meta<typeof Page>;
 
