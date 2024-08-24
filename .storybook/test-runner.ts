@@ -20,12 +20,25 @@ const config: TestRunnerConfig = {
       rules: storyContext.parameters?.a11y?.config?.rules,
     });
 
-    await checkA11y(page, "#storybook-root", {
-      detailedReport: true,
-      detailedReportOptions: {
-        html: true,
+    await checkA11y(
+      page,
+      "#storybook-root",
+      {
+        detailedReport: true,
+        detailedReportOptions: {
+          html: true,
+        },
       },
-    });
+      false,
+      {
+        report: async (violations) => {
+          if (violations.length) {
+            console.log(`http://localhost:6006/?path=/story/${context.id}`);
+            console.log(violations[0].id);
+          }
+        },
+      }
+    );
   },
 };
 

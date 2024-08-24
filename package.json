@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "test-storybook-json": "test-storybook --json --outputFile results.json"
   },
   "dependencies": {
     "i18next": "^23.14.0",
