@@ -30,6 +30,7 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    // memo storybook反映時点で問題点に気づける（シフトレフト）
     a11y: {
       config: {
         locale: AXE_LOCALE_JA,

@@ -1,0 +1,5 @@
+CONTEXT ID,DATE,VIOLATION ID,VIOLATION HELP
+example-button--primary,2024/8/25,color-contrast,要素は色のコントラスト比（最低限）の閾値を満たしていなければなりません
+example-page--logged-out,2024/8/25,color-contrast,要素は色のコントラスト比（最低限）の閾値を満たしていなければなりません
+example-header--logged-out,2024/8/25,color-contrast,要素は色のコントラスト比（最低限）の閾値を満たしていなければなりません
+example-page--logged-in,2024/8/25,color-contrast,要素は色のコントラスト比（最低限）の閾値を満たしていなければなりません
