@@ -1,7 +1,14 @@
 {
   "folders": [
     {
-      "path": "./"
-    }
-  ]
+      "path": "./",
+    },
+  ],
+  "settings": {
+    // "search.exclude": {
+    //   "**/node_modules": false,
+    // },
+    // "search.useParentIgnoreFiles": false,
+    // "search.useIgnoreFiles": false,
+  },
 }
