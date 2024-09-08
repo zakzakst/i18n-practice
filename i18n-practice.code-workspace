@@ -15,15 +15,15 @@
     },
     // 設定：ファイルエクスプローラーに非表示
     "files.exclude": {
-      // "dist": true,
-      ".stylelintrc.json": true,
-      ".prettierrc": true,
-      ".eslintrc.js": true,
-      ".editorconfig": true,
-      ".babelrc": true,
-      ".github": true,
+      ".next": true,
+      ".gitignore": true,
+      ".eslintrc.json": true,
+      "node_modules": true,
+      "yarn.lock": true,
+      "next-env.d.ts": true,
       "tsconfig.json": false,
       "package-lock.json": true,
+      "README.md": true,
     },
     // "search.exclude": {
     //   "**/node_modules": false,
