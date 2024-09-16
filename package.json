@@ -10,7 +10,9 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "test-playwright": "playwright test",
+    "test-playwright-axe-core": "playwright test tests/axe-core.spec.ts"
   },
   "dependencies": {
     "i18next": "^23.14.0",
@@ -22,7 +24,9 @@
     "react-i18next": "^15.0.1"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
     "@chromatic-com/storybook": "1.6.1",
+    "@playwright/test": "^1.47.1",
     "@storybook/addon-a11y": "^8.2.9",
     "@storybook/addon-essentials": "^8.2.9",
     "@storybook/addon-interactions": "^8.2.9",

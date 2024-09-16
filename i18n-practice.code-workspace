@@ -7,7 +7,7 @@
   "settings": {
     // 設定：配色の変更
     "workbench.colorCustomizations": {
-      "titleBar.activeBackground": "#660000",
+      "titleBar.activeBackground": "#000022",
     },
     "workbench.editor.customLabels.patterns": {
       "**/index.*": "${dirname} .../${dirname(1)}",
