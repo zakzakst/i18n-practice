@@ -41,6 +41,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "accept-language": "^3.0.20",
+    "axe-html-reporter": "^2.2.11",
     "axe-playwright": "^2.0.2",
     "csv-writer": "^1.6.0",
     "eslint": "^8",

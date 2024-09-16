@@ -3402,6 +3402,13 @@ axe-html-reporter@2.2.3:
     mustache "^4.0.1"
     rimraf "^3.0.2"
 
+axe-html-reporter@^2.2.11:
+  version "2.2.11"
+  resolved "https://registry.yarnpkg.com/axe-html-reporter/-/axe-html-reporter-2.2.11.tgz#749a4d5836f6aebb6780049933c2f6030e06c7d0"
+  integrity sha512-WlF+xlNVgNVWiM6IdVrsh+N0Cw7qupe5HT9N6Uyi+aN7f6SSi92RDomiP1noW8OWIV85V6x404m5oKMeqRV3tQ==
+  dependencies:
+    mustache "^4.0.1"
+
 axe-playwright@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/axe-playwright/-/axe-playwright-2.0.2.tgz#c2077997b9b4fdca83078e1993b3b6eab3e38abe"

@@ -19,7 +19,7 @@
       ".gitignore": true,
       ".eslintrc.json": true,
       "node_modules": true,
-      "yarn.lock": true,
+      // "yarn.lock": true,
       "next-env.d.ts": true,
       "tsconfig.json": false,
       "package-lock.json": true,
